@@ -1,0 +1,19 @@
+p {
+color: red;
+font-size: 28;
+font-family: fantasy;
+}
+
+ul {
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 40px;
+}
+.list-item {
+  list-style: disc;
+  background-color: transparent;
+  list-style-position: outside;
+}
