@@ -24,11 +24,12 @@
         para.textContent = eval(code);
       }
       
- function createNewPerson(name) {
-  var obj = {};
-  obj.name = name;
-  obj.greeting = function() {
+function Person(name) { // replacing the user of an empty oject with a constructor function
+  this.name = name;
+  this.greeting = function() {
     alert('Hi! I\'m ' + this.name + '.');
+  };
+}
   };
   return obj;
 }
