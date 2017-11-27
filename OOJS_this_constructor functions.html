@@ -24,10 +24,19 @@
         para.textContent = eval(code);
       }
       
-function Person(name) { 	
-	this.name = name;		
-	this.greeting = function() {  
-    	alert('Hi! I\'m ' + this.name + '.');  
+function Person(first, last, age, gender, interests) {
+  this.name = {
+    first,
+    last
+  };
+  this.age = age;
+  this.gender = gender;
+  this.interests = interests;
+  this.bio = function() {
+    alert(this.name.first + ' ' + this.name.last + ' is ' + this.age + ' years old. He likes ' + this.interests[0] + ' and ' + this.interests[1] + '.');
+  };
+  this.greeting = function() {
+    alert('Hi! I\'m ' + this.name.first + '.');
   };
 }
  
@@ -37,8 +46,7 @@ function Person(name) {
 //the object's name property will be equal to the name value passed to the constructor call, and the greeting() method will use the 
 //name value passed to the constructor call too.     
 
-var person1 = new Person('Bob'); // calling a constructor to create some "person" objects?
-var person2 = new Person('Sarah');
+var person1 = new Person('Bob', 'Smith', 32, 'male', ['music', 'skiing']);
 
     </script>
 </html>
