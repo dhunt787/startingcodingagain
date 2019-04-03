@@ -11,13 +11,27 @@ waffle(30)
 
 console.log('This is the function waffle: ', waffle)
 
-var animals = [
-  { name: 'fluffykins', species: 'rabbit'},
-  {  name: 'Murphy', species: 'dog'},
-  {  name: 'Milo', species: 'cat'},
-  {  name: 'Jimmy', species: 'fish' },
-  {  name: 'Jack', species: 'dog'}
-  ]
+var animals = [{
+    name: 'fluffykins',
+    species: 'rabbit'
+  },
+  {
+    name: 'Murphy',
+    species: 'dog'
+  },
+  {
+    name: 'Milo',
+    species: 'cat'
+  },
+  {
+    name: 'Jimmy',
+    species: 'fish'
+  },
+  {
+    name: 'Jack',
+    species: 'dog'
+  }
+]
 
 /*we want to pull out the dogs from the animals array and push it to a new array called dogs. manually looping through the array and return the items that are dogs, would be the way of achieving this with non-functional programming.
 var dogs = []
@@ -41,7 +55,7 @@ var isDog = function(animal) { //We are breaking out the call back into a sepera
 var dogs = animals.filter(isDog) //you are passing the 'isDog' function as an argument into the new function 'dogs' and then using the filter() method
 //var otherAnimals = animals.reject(isDog)
 
-console.log('This is the new dogs array: ' , dogs);
+console.log('This is the new dogs array: ', dogs);
 //console.log('There are the other animals in the array: ' , otherAnimals);
 
 /* filter() accepts one argument - another function
