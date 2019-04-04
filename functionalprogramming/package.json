@@ -1,0 +1,23 @@
+{
+  "name": "functionalprogramming",
+  "version": "1.0.0",
+  "description": "Functional programming examples from fun fun function youtube channel",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dhunt787/startingcodingagain.git"
+  },
+  "keywords": [
+    "functional",
+    "programming"
+  ],
+  "author": "Donal Hunt",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dhunt787/startingcodingagain/issues"
+  },
+  "homepage": "https://github.com/dhunt787/startingcodingagain#readme"
+}
