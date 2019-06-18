@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/dhunt787/startingcodingagain/issues"
   },
-  "homepage": "https://github.com/dhunt787/startingcodingagain#readme"
+  "homepage": "https://github.com/dhunt787/startingcodingagain#readme",
+  "dependencies": {
+    "lodash": "^4.17.11"
+  }
 }
