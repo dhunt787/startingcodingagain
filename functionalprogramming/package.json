@@ -21,6 +21,6 @@
   },
   "homepage": "https://github.com/dhunt787/startingcodingagain#readme",
   "dependencies": {
-    "lodash": "^4.17.11"
+    "lodash": "^4.17.13"
   }
 }
